@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20160403141301) do
     t.string   "expiration", limit: 255
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
-    t.integer  "quality",    limit: 4
+    t.string   "quality",    limit: 255
   end
 
 end
