@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
    get 'foods/new'
    get '/foods' => 'foods#index'
+   post '/foods' => 'foods#create'
 
   match ':controller(/:action(/:id))', :via => :get
 
