@@ -3,6 +3,7 @@ Rails.application.routes.draw do
    get 'foods/index'
 
    get 'foods/new'
+   get '/foods' => 'foods#index'
 
   match ':controller(/:action(/:id))', :via => :get
 
