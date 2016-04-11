@@ -1,8 +1,17 @@
 <h1>Hello Food!</h1>
 <!-- <p>Find me in app/views/foods/index.html.erb</p> -->
-<table>
-	<% @foods.each do |food| %>
 
+<table>
+
+
+	<caption><b>Table of Foods</b></caption>
+<tr>
+			<th>Food Name</th>
+			<th>Food Type</th>
+			<th>Expiration Date</th>
+			<th>Food Quality</th>
+		</tr>	
+	<% @foods.each do |food| %>
 		<tr>
 			<td><%= food.name %></td>
 			<td><%= food.food_type %></td>
