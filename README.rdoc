@@ -7,6 +7,9 @@ Things you may want to cover:
 
 * Ruby version
 
+*jQuery Mobile v 1.4.5
+ jQuery core v 1.12.3.min.js
+
 * System dependencies
 
 * Configuration
